@@ -32,3 +32,4 @@ try:
 finally:
     time.sleep(20)
     driver.quit()
+    driver.close()
