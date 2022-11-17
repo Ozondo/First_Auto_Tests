@@ -18,6 +18,8 @@ try:
 
     button.click()
 
+
+
     x = int(driver.find_element(By.ID,"input_value").text)
 
     answer = driver.find_element(By.ID,"answer")
@@ -28,5 +30,5 @@ try:
 
 
 finally:
-    time.sleep(10)
+    time.sleep(20)
     driver.quit()
